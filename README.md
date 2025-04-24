@@ -1,6 +1,6 @@
 # Automação de Testes de Cadastro de Usuários no Serverest
 
-Este projeto de automação, foi desenvolvido com o Robot Framework,e tem como objetivo testar o fluxo de cadastro de usuários no website [Serverest](https://front.serverest.dev/cadastrarusuarios). Os testes cobrem tanto cenários de sucesso quanto de falha, garantindo a robustez e a qualidade do processo de registro de novos usuários.
+Este projeto de automação foi desenvolvido com o Robot Framework e tem como objetivo testar o fluxo de cadastro de usuários no website [Serverest](https://front.serverest.dev/cadastrarusuarios). Os testes cobrem tanto cenários de sucesso quanto de falha, garantindo a robustez e a qualidade do processo de registro de novos usuários.
 
 ## Tecnologias Utilizadas
 
@@ -22,9 +22,9 @@ Antes de executar os testes, certifique-se de ter os seguintes softwares instala
 ## Estrutura do Projeto
 
 O projeto está organizado da seguinte forma:
-Automacao Robot/
-├── resourcestests.robot    # Arquivo de recursos com configurações, variáveis e keywords
-└── testbdd.robot # Arquivo contendo os casos de teste com escrita em gherkin
+📁 Automacao Robot/
+├── resourcestests.robot   # Arquivo de recursos com configurações, variáveis e keywords
+└── testbdd.robot          # Casos de teste escritos em Gherkin
 
 
 
