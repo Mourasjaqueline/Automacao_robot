@@ -7,7 +7,7 @@ Este projeto de automação foi desenvolvido com o Robot Framework e tem como ob
 * **Robot Framework:** Framework de automação de testes genérico e de código aberto.
 * **SeleniumLibrary:** Biblioteca do Robot Framework para automação de navegadores web.
 * **BuiltIn:** Biblioteca padrão do Robot Framework com funcionalidades essenciais.
-* **Navegador:** Google Chrome (configurado na variável `${BROWSER}`).
+* **Navegador:** Google Chrome.
 
 ## Pré-requisitos
 
