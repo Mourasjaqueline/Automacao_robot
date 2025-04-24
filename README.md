@@ -27,6 +27,8 @@ O projeto está organizado da seguinte forma:
 📁 Automacao Robot/
 
 ├── resourcestests.robot   # Arquivo de recursos com configurações, variáveis e keywords
+
+
 └── testbdd.robot          # Casos de teste escritos em Gherkin
 
 
