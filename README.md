@@ -80,8 +80,12 @@ Os seguintes cenários de teste foram implementados utilizando a abordagem Behav
     robot -i "Cadastro de usuário admin" testbdd.robot
     
     ```
+
+    Para executar em outro navegador como o Edge você pode usar a opção:
+
+     robot -v BROWSER:edge testbdd.robot
     
-3.  **Após a execução**, os resultados serão gerados nos arquivos `log.html` e `report.html` (geralmente criados em uma pasta `output`, dependendo da sua configuração). Abra esses arquivos no seu navegador para visualizar os detalhes da execução dos testes.
+4.  **Após a execução**, os resultados serão gerados nos arquivos `log.html` e `report.html` (geralmente criados em uma pasta `output`, dependendo da sua configuração). Abra esses arquivos no seu navegador para visualizar os detalhes da execução dos testes.
 
 **As tags utilizadas nos casos de teste são:**
 
