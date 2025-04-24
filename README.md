@@ -22,6 +22,8 @@ Antes de executar os testes, certifique-se de ter os seguintes softwares instala
 ## Estrutura do Projeto
 
 O projeto está organizado da seguinte forma:
+
+
 📁 Automacao Robot/
 ├── resourcestests.robot   # Arquivo de recursos com configurações, variáveis e keywords
 └── testbdd.robot          # Casos de teste escritos em Gherkin
