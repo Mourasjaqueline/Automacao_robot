@@ -1,0 +1,29 @@
+# Arquivos de cache e configurações locais
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.db
+
+# Pasta de resultados dos testes (ajuste se necessário)
+results/
+output.xml
+report.html
+log.html
+*.png
+
+# Relatórios Allure
+allure-report/
+allure-results/
+*.json
+
+# Configurações de IDEs
+.vscode/
+.idea/
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
