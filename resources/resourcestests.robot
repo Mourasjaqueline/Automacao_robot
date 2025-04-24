@@ -42,7 +42,7 @@ Validar que permaneceu na tela de cadastro
 
 Preencher campos válidos
     Input Text    ${input_nome}       Jessica Silva
-    Input Text    ${input_email}      og44174582@gmail.com
+    Input Text    ${input_email}      jessicanovoemail@gmail.com
     Input Text    ${input_password}   12109975@Ja
     Click Button  ${button_cadastrar}
 
@@ -78,16 +78,10 @@ Preencher com email existente
 
 Preencher e marcar como admin
     Input Text         ${input_nome}               Nome Usuario Admin 
-    Input Text         ${input_email}              adm44o@teste.com
+    Input Text         ${input_email}              adminnovocadastro.1@teste.com
     Input Text         ${input_password}           SenhaAdminBasico123
     Select Checkbox    ${input_checkbox}
     Click Button       ${button_cadastrar}
-
-Preencher com espaços extras
-    Input Text    ${input_nome}       Nome Com Espacos Basico
-    Input Text    ${input_email}      espacos.basico@teste.com
-    Input Text    ${input_password}   SenhaEspacosBasico123
-    Click Button  ${button_cadastrar}
 
 Dado que eu estou na tela de cadastro
     Abrir site
