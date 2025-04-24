@@ -81,7 +81,7 @@ Os seguintes cenários de teste foram implementados utilizando a abordagem Behav
     
     ```
 
-    #As tags utilizadas nos casos de teste são:
+   # #As tags utilizadas nos casos de teste são:
 
 Cadastro de novo usuário (aplicada ao Cenário 1)
 Falha no cadastro (aplicada aos Cenários 2, 3, 4, 5, 6 e 8)
