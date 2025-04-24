@@ -81,10 +81,9 @@ Os seguintes cenários de teste foram implementados utilizando a abordagem Behav
     
     ```
 
-  ```bash
-      Para executar em outro navegador como o Edge você pode usar a opção `-v`:
+ Para executar em outro navegador como o Edge você pode usar a opção `-v`:
+  ```bash     
      robot -v BROWSER:edge testbdd.robot
-
     ```
   
     
