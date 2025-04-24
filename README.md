@@ -66,32 +66,27 @@ Os seguintes cenários de teste foram implementados utilizando a abordagem Behav
 ## Como Executar os Testes
 
 1.  **Navegue até o diretório do projeto** no seu terminal.
-2.  **Execute o seguinte comando** para rodar todos os testes:
+2.  **Execute o seguinte comando** para rodar todos os testes definidos no arquivo `testbdd.robot`:
 
     ```bash
     robot testbdd.robot
     ```
 
-    Para executar testes com tags específicas, você pode usar a opção `-i`:
+    Para executar testes com tags específicas, utilize a opção `-i`:
 
     ```bash
     robot -i "Cadastro de novo usuário" testbdd.robot
     robot -i "Falha no cadastro" testbdd.robot
     robot -i "Cadastro de usuário admin" testbdd.robot
-    
     ```
 
- Para executar em outro navegador como o Edge você pode usar a opção `-v`:
-  ```bash     
-     robot -v BROWSER:edge testbdd.robot
+    Para executar os testes em outro navegador, como o Edge, você pode utilizar a opção `-v` para definir a variável `BROWSER`:
 
+    ```bash
+    robot -v BROWSER:edge testbdd.robot
     ```
 
-
-
-    
-4.  **Após a execução**, os resultados serão gerados nos arquivos `log.html` e `report.html` (geralmente criados em uma pasta `output`, dependendo da sua configuração). Abra esses arquivos no seu navegador para visualizar os detalhes da execução dos testes.
-
+3.  **Após a execução**, os resultados serão gerados nos arquivos `log.html` e `report.html`. Por padrão, esses arquivos são criados em uma pasta chamada `output` dentro do diretório do seu projeto. Abra esses arquivos no seu navegador para visualizar os detalhes da execução dos testes.
 **As tags utilizadas nos casos de teste são:**
 
 Cadastro de novo usuário (aplicada ao Cenário 1)
