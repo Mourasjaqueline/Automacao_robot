@@ -69,7 +69,7 @@ Os seguintes cenários de teste foram implementados utilizando a abordagem Behav
 2.  **Execute o seguinte comando** para rodar todos os testes:
 
     ```bash
-    robot seu_arquivo_de_testes.robot
+    robot testbdd.robot
     ```
 
     Para executar testes com tags específicas, você pode usar a opção `-i`:
@@ -78,7 +78,14 @@ Os seguintes cenários de teste foram implementados utilizando a abordagem Behav
     robot -i "Cadastro de novo usuário" testbdd.robot
     robot -i "Falha no cadastro" testbdd.robot
     robot -i "Cadastro de usuário admin" testbdd.robot
+    
     ```
+
+    #As tags utilizadas nos casos de teste são:
+
+Cadastro de novo usuário (aplicada ao Cenário 1)
+Falha no cadastro (aplicada aos Cenários 2, 3, 4, 5, 6 e 8)
+Cadastro de usuário admin (aplicada ao Cenário 7)
 
 3.  **Após a execução**, os resultados serão gerados nos arquivos `log.html` e `report.html` (geralmente criados em uma pasta `output`, dependendo da sua configuração). Abra esses arquivos no seu navegador para visualizar os detalhes da execução dos testes.
 
