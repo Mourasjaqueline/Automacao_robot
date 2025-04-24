@@ -102,8 +102,6 @@ Este arquivo contém configurações, variáveis e keywords reutilizáveis para 
 ## Próximos Passos e Melhorias
 
 * **Validação de Mensagens de Erro:** Implementar validações para garantir que as mensagens de erro corretas são exibidas quando os campos são preenchidos incorretamente ou deixados em branco.
-* **Cenários Adicionais:** Adicionar mais cenários de teste, como validação de senhas (complexidade, confirmação), tratamento de outros campos (se houver), e possíveis mensagens de sucesso no cadastro.
-* **Data-Driven Testing:** Considerar a utilização de arquivos de dados externos para executar os mesmos cenários com diferentes conjuntos de dados (por exemplo, diferentes formatos de email inválidos).
 * **Relatórios Mais Detalhados:** Integrar bibliotecas como Allure para gerar relatórios de teste mais visuais e informativos.
 * **Execução em Diferentes Navegadores:** Configurar o projeto para ser executado em outros navegadores (Firefox, Edge) através da variável `${BROWSER}` ou da linha de comando.
 * 
